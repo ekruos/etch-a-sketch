@@ -1,0 +1,36 @@
+* {
+    background-color: rgb(239, 217, 240);
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(207, 38, 162);
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.pixel-button {
+    width: 160px;
+    height: 50px;
+    color: rgb(207, 38, 162);
+    background-color: yellow;
+    border: 2px solid rgb(207, 38, 162);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
